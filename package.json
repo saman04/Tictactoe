@@ -1,0 +1,20 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "CS570 ASG1",
+  "main": "tictactoe.js",
+  "scripts": {
+    "start": "node tictactoe.js",
+    "debug": "node --inspect-brk=9229 tictactoe.js"
+  },
+  "author": "Jeet Saman and Saumya",
+  "license": "ISC",
+  "dependencies": {
+    "cfonts": "^2.2.1",
+    "clear-screen": "^1.0.0",
+    "file-system": "^2.2.2",
+    "fs-extra": "^7.0.0",
+    "nodemon": "^1.18.4",
+    "readline-sync": "^1.4.9"
+  }
+}
